@@ -1,0 +1,300 @@
+/*configurações gerais*/
+body{
+    height: 100vh;
+    background-color: black;
+    max-width: 1092px;
+    max-height: 910px;
+    min-height: 200px;
+    max-width: 400px;
+    top: -575px;
+    left: -960px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -270px;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fontes*/
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*cabecalho*/
+.pg_head{
+    display: flex;
+    width: 299px;
+    margin-top: 10px;
+    margin-left: 403px;
+    font-size: 2.5rem;
+}
+.pg_head a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+.Home_butn{
+    margin-right: 80px;
+}
+.MinSobr_butn{
+    color: none;
+}
+
+/*Conteudo Principal*/
+.universal_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 310px 0 356px;
+    width: 1218px;
+}
+
+/*imagem*/
+.container_img{
+    /* width: 488px, height: 550px*/
+    margin-top: 55px;
+    width: 488px;
+    width: 60%;
+    height: 550px;
+}
+    .image{
+        color: none;
+    }
+
+.container_princ{
+    /* width: 593px, height: 352px*/
+    color: #F6F6F6;
+    /*width: 593px;*/
+    width: 50%;
+    height: 352px;
+    margin: 40px 50px 50px 50px ;
+}
+
+    /*parte textual*/
+    .container_txt{
+        margin: 0;
+    }
+    .title{
+        /* width: 593px, height: 168px, font: 36px*/
+        font-family: Krona One;
+        font-size: 3.6rem;
+        font-weight: 400;
+        line-height: 56px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-bottom: 40px;
+    }
+        .blue_title{
+            /* width: 593px, height: 144px, font: 24px*/
+            color: #22D4FD;
+            font-family: Krona One;
+            font-size: 3.6rem;
+            font-weight: 400;
+            line-height: 56px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .text_pric{
+            font-family: Montserrat;
+            font-size: 2.4rem;
+            font-weight: 400;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+    
+    /*Butões*/
+    .container_buttons{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_sec{
+        font-family: "Krona One", sans-serif;
+        font-size: 2.3rem;
+    }
+    .buttons{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        font-family: Montserrat;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+        .button_Linkedin{
+            border: solid 2px #22D4FD;
+            color: #22D4FD;
+            background-color: #000000;
+            text-align: center;
+            margin: 30px 10px 10px 10px;
+            width: 378px;
+            height: 66px;
+            gap: 16px;
+            border-radius: 10px;
+            opacity: 0px;
+            bottom: -122px;  
+        }
+        .button_Linkedin p{
+            margin: 16px 0px 16px 0px ;
+        }
+
+        .button_github{
+            border: solid 2px #22D4FD;
+            color: #22D4FD;
+            background-color: #000000;
+            text-align: center;
+            margin: 30px 10px 10px 10px;
+            width: 378px;
+            height: 66px;
+            gap: 16px;
+            border-radius: 10px;
+            opacity: 0px;
+            bottom: -122px;            
+        }
+        .button_github p{
+            margin: 16px 0px 16px 0px ;
+        }
+
+        .button_Twitch{
+            border: solid 2px #22D4FD;
+            color: #22D4FD;
+            background-color: #000000;
+            text-align: center;
+            margin: 30px 10px 10px 10px;
+            width: 378px;
+            height: 66px;
+            gap: 16px;
+            border-radius: 10px;
+            opacity: 0px;
+            bottom: -122px;            
+        }
+        .button_Twitch p{
+            margin: 16px 0px 16px 0px ;
+        }
+        
+        .buttons p :hover{
+            text-decoration: none
+        }
+        .buttons :link{
+            text-decoration: none;
+        }
+        .buttons a:hover{
+            background-color: #22D4FD;
+            color: rgb(0, 0, 0);
+            border: 1px rgb(71, 71, 71) solid;
+            text-transform: none;
+            margin-left: -20px;
+        }
+        .buttons a:hover p{
+            margin-left: -20px;
+        }
+        .buttons a{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .buttons img{
+            margin-left: 115px;
+        }
+
+    .pg_foot{
+        color: black;
+        background-color: #22D4FD;
+        align-items: baseline;
+        position: 1092px 280px;
+    }
+
+    /*About*/
+    .container_txt_about{
+        width: 400px;
+        color: #F6F6F6;
+        width: 605px;
+        height: 352px;
+        margin: 40px 50px 50px 0px ;
+    }
+    .container_txt_about p{
+        font-size: 1.8rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .universal_container_about{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 310px 0 356px;
+        width: 1217px;
+    }
+    .container_img_about{
+        /* width: 488px, height: 550px*/
+        margin-top: 48px;
+        width: 488px;
+        height: 550px;
+    }
+    .pg_head_about{
+        display: flex;
+        width: 299px;
+        margin-top: 10px;
+        margin-left: 355px;
+        font-size: 2.5rem;
+    }
+    .pg_head_about a{
+        text-decoration: none;
+        color: #22D4FD;
+    }
+    .Home_butn_about{
+        margin-right: 80px;
+    }
+    .MinSobr_butn_about{
+        color: none;
+    }
+
+    @media (max-width: 700px) {
+        .universal_container{
+            flex-direction: column;
+            width: 40%;
+            line-break: normal;
+            margin-left: 300px;
+        }
+        .pg_head{
+            order: 1;
+            margin-left: 399px;
+            padding: 0 12%;
+        }
+        .container_img{
+            order: 2;
+            padding: 20%;
+        }
+        .container_princ{
+            width: 500px;
+            order: 3;
+            
+        }
+        .container_buttons{
+            order: 4;
+            margin-right: 50px;
+        }
+    }
